@@ -1,0 +1,32 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(90deg, #ef8354, #e8736c, #d66a80, #bc678e, #9d6794, #7d6691, #626386, #4f5d75);
+    /* height: 100vh; */
+    display: flex;
+    padding: 15px;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    
+}
+#main{
+    width: 40%;
+    height: 60vh;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    text-align: center;
+}
+#main-dashboard {
+    width: 98%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    text-align: center;
+}
+#myTable_wrapper{
+    width: 95%;
+    margin:auto;
+    height: 95%;
+}
